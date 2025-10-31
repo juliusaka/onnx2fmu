@@ -1,0 +1,29 @@
+{
+    "name": "example5",
+    "description": "Example to test FMU with local variables.",
+    "FMIVersion": "2.0",
+    "inputs": [
+        {
+            "name": "u",
+            "description": "A vector of control variables at time t, size 2."
+        }
+    ],
+    "outputs": [
+        {
+            "name": "ynext",
+            "description": "The output variable at time t+1, size 1."
+        }
+    ],
+    "locals": [
+        {
+            "nameIn": "x",
+            "nameOut": "xnext",
+            "description": "The local state variable, size 3.",
+            "start": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ]
+}
