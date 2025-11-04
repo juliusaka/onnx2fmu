@@ -1129,6 +1129,7 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "ipykernel" },
+    { name = "onnx" },
     { name = "onnxscript" },
     { name = "torch" },
     { name = "torchaudio" },
@@ -1151,6 +1152,7 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "ipykernel", specifier = ">=7.1.0" },
+    { name = "onnx" },
     { name = "onnxscript", specifier = ">=0.5.6" },
     { name = "torch", specifier = ">=2.9.0" },
     { name = "torchaudio", specifier = ">=2.9.0" },
